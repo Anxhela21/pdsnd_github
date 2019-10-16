@@ -2,10 +2,10 @@
 October 15, 2019
 
 ### Project Title
-Udacity BikeShare Data Project
+Udacity BikeShare Data
 
 ### Description
-A console application to view BikeShare data from three US cities.
+Console line App that allows user to filter and view BikeShare data.
 
 ### Files used
 bikeshare.py
