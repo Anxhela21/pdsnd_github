@@ -8,6 +8,8 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+#THIS FUNCTION RETRIEVES USER FILTERS.
+
 def get_filters():
     city = input('Hello! Let\'s explore some US bikeshare data! What city data would you like to explore?Chicago/New York City/Washington?:')
     if city == 'Chicago' or city == 'chicago':
@@ -37,7 +39,7 @@ def get_filters():
 
 
 
-
+#THIS FUNCTION LOADS DATA BASED ON FILTERS CHOSEN IN LAST FUNCTION:
 
 def load_data(city, month, day):
 
@@ -68,6 +70,8 @@ def load_data(city, month, day):
     return df
 
 
+#THIS FUNCTION DISPLAYS TIME STATISTICS:
+
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -93,7 +97,7 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+# THIS FUNCTION DISPLAYS STATION STATISTICS:
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
@@ -118,6 +122,7 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#THIS FUNCTION DISPLAYS TRIP DURATION STATISTICS:
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
@@ -144,7 +149,7 @@ def trip_duration_stats(df):
     print('-'*40)
 
 
-
+#THIS FUNCITON DISPLAYS USER STATISTICS, BASED ON WHICH DATASET IS CHOSEN
 def user_stats(df):
   """Displays statistics on bikeshare users."""
 
@@ -175,7 +180,7 @@ def user_stats(df):
   print("\nThis took %s seconds." % (time.time() - start_time))
   print('-'*40)
 
-
+#THIS FUNCTION GIVES USER THE OPTION TO VIEW FIVE ROWS OF RAW DATA:
 def display_data(df):
     start_row = 0
     end_row =5
