@@ -1,11 +1,11 @@
 ### Date created
-10/15/2019
+October 15, 2019
 
 ### Project Title
 Udacity BikeShare Data
 
 ### Description
-Console line App that depicts BikeShare data
+Console line App that allows user to filter and view BikeShare data.
 
 ### Files used
 bikeshare.py
