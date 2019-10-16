@@ -15,14 +15,21 @@ October 15, 2019
 
 ### Project Title
 <<<<<<< HEAD
+<<<<<<< HEAD
 Udacity BikeShare Data
 ||||||| merged common ancestors
 Replace the Project Title
 =======
 Udacity BikeShare Data Project
 >>>>>>> documentation
+||||||| merged common ancestors
+Udacity BikeShare Data Project
+=======
+Udacity BikeShare Data
+>>>>>>> documentation
 
 ### Description
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Console line App that depicts BikeShare data
@@ -36,6 +43,11 @@ Console line App that depicts BikeShare data
 =======
 Console line App that allows user to filter and view BikeShare data.
 >>>>>>> refactoring
+||||||| merged common ancestors
+A console application to view BikeShare data from three US cities.
+=======
+Console line App that allows user to filter and view BikeShare data.
+>>>>>>> documentation
 
 ### Files used
 bikeshare.py
