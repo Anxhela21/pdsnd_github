@@ -1,11 +1,17 @@
 ### Date created
 <<<<<<< HEAD
+<<<<<<< HEAD
 10/15/2019
 ||||||| merged common ancestors
 Include the date you created this project and README file.
 =======
 October 15, 2019
 >>>>>>> documentation
+||||||| merged common ancestors
+10/15/2019
+=======
+October 15, 2019
+>>>>>>> refactoring
 
 ### Project Title
 <<<<<<< HEAD
@@ -18,12 +24,18 @@ Udacity BikeShare Data Project
 
 ### Description
 <<<<<<< HEAD
+<<<<<<< HEAD
 Console line App that depicts BikeShare data
 ||||||| merged common ancestors
 Describe what your project is about and what it does
 =======
 A console application to view BikeShare data from three US cities.
 >>>>>>> documentation
+||||||| merged common ancestors
+Console line App that depicts BikeShare data
+=======
+Console line App that allows user to filter and view BikeShare data.
+>>>>>>> refactoring
 
 ### Files used
 bikeshare.py
